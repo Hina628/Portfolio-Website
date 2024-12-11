@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Website using Bootstrap 5</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+ </head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-h"></i>
+                    <div class="logo-text">Hina Fahim</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Projects">Project's</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic" id="Home">
+                    <img src="img.jpg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h2>Hi I'm <span class="input">Frontend Developer</span></h2>
+                    <h1>Hina Fahim</h1>
+                    <p>
+                        A passionate Frontend Developer currently pursuing an internship in web development to enhance
+                        my skills and gain real-world experience.
+                        I specialize in <strong>HTML, CSS, JavaScript, and Bootstrap,</strong> creating responsive,
+                        user-friendly, and visually appealing websites. Let’s work together to bring your ideas to life!
+                    </p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/share/axZpK3ajW5xF79MJ/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/hina-fahim-021515313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href=" https://github.com/Hina628" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/hinayyy6/profilecard/?igsh=dG85b2lycTBnb2p1" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="btn-group">
+                        <a href="#" class="btn active">Download CV</a>
+                        <a href="#" class="btn">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="about" id="About" class="animate-on-scroll hidden">
+            <div class="about_content">
+                <div class="about-img">
+                    <img src="img.jpg" alt="profile image" width="300px">
+                </div>
+                <h2 class="heading">About <span>Me!</span></h2>
+                <h2 class="heading2"> Frontend Developer</h2>
+                <p class="para">
+                    Hi, I'm a passionate Frontend Developer with a knack for creating beautiful, responsive, and
+                    user-friendly websites. I specialize in HTML, CSS, JavaScript, and Bootstrap, ensuring seamless web
+                    experiences.
+                    My goal is to bring ideas to life through code and design, crafting visually appealing interfaces
+                    that not only look great but also function flawlessly. Currently, I am enhancing my skills further
+                    during my web development internship.
+                    I enjoy solving challenges, learning new technologies, and staying up-to-date with the latest trends
+                    in web development. Let's build something amazing together!
+                </p>
+            </div>
+        </section>
+
+        <section class="services" id="Services">
+            <h2 class="heading">Our <span>Services!</span></h2>
+            <div class="card-group">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Web Design</h4>
+                        <p class="card-text">
+                            Crafting visually stunning and responsive designs that ensure a seamless user experience on
+                            any device.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Updated recently</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Web Development</h4>
+                        <p class="card-text">
+                            Building robust, scalable, and optimized websites tailored to your business needs.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Updated recently</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">SEO Optimization</h4>
+                        <p class="card-text">
+                            Enhancing your website's visibility on search engines with advanced SEO strategies.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Updated recently</small></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="Projects">
+            <h2 class="heading">My <span>Projects</span></h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="Snake Game.png" alt="Snake Game" class="project-img">
+                    <h2>Snake Game</h2>
+                    <p>A fun and interactive snake game built using JavaScript.</p>
+                    <div class="btn-group">
+                        <a href=" https://www.linkedin.com/posts/hina-fahim-021515313_webdevelopment-javascript-coding-activity-7255705854396489730-R6WI?utm_source=share&utm_medium=member_android"
+                            target="_blank" class="btn">LinkedIn</a>
+                        <a href="https://snake-game-clone.netlify.app/" target="_blank" class="btn">GitHub</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="Linkdin .png" alt="LinkedIn Clone" class="project-img">
+                    <h2>LinkedIn Clone</h2>
+                    <p>A fully functional LinkedIn UI clone using HTML, CSS, and JavaScript.</p>
+                    <div class="btn-group">
+                        <a href=" https://www.linkedin.com/posts/hina-fahim-021515313_webdevelopment-coding-ecommerce-activity-7222826298245627904-ctEP?utm_source=share&utm_medium=member_android"
+                            target="_blank" class="btn">LinkedIn</a>
+                        <a href="https://linkdelin-clone.netlify.app/" target="_blank"
+                            class="btn">GitHub</a>
+                    </div>
+                </div>
+              
+                <div class="project-card">
+                    <img src="Amazon.png" alt="Amazon Clone" class="project-img">
+                    <h2>Amazon Clone</h2>
+                    <p>A replica of the Amazon website using modern web technologies.</p>
+                    <div class="btn-group">
+                        <a href=" https://www.linkedin.com/posts/hina-fahim-021515313_webdevelopment-coding-ecommerce-activity-7217332030991159297-qMjB?utm_source=share&utm_medium=member_android"
+                            target="_blank" class="btn">LinkedIn</a>
+                        <a href="https://online-shopping-clone.netlify.app/" target="_blank" class="btn">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="Cartoon website.png" alt="Cartoon Website Clone" class="project-img">
+                    <h2>Cartoon Website Clone</h2>
+                    <p>A colorful and interactive clone of a cartoon-themed website.</p>
+                    <div class="btn-group">
+                        <a href=" https://www.linkedin.com/posts/hina-fahim-021515313_webdevelopment-internshipjourney-frontenddesign-activity-7271941781720559617-AlX0?utm_source=share&utm_medium=member_android"
+                            target="_blank" class="btn">LinkedIn</a>
+                        <a href="https://cartoon-clone.netlify.app/" target="_blank" class="btn">GitHub</a>
+                    </div>
+                </div>
+              
+                <div class="project-card">
+                    <img src="Food Web Clone.png" alt="Food Clone" class="project-img">
+                    <h2>Foodio Clone</h2>
+                    <p>A visually appealing and fully responsive food delivery website clone.</p>
+                    <div class="btn-group">
+                        <a href=" https://www.linkedin.com/posts/hina-fahim-021515313_webdevelopment-html-css-activity-7218020315610636288-MLi1?utm_source=share&utm_medium=member_android" target="_blank" class="btn">LinkedIn</a>
+                        <a href="https://foodio-clone.netlify.app/" target="_blank" class="btn">GitHub</a>
+                    </div>
+                </div>
+               
+                <div class="project-card">
+                    <img src="Netflex Clone.png" alt="Netflix Website Clone" class="project-img">
+                    <h2>Netflix Website Clone</h2>
+                    <p>A sleek and responsive clone of the Netflix UI.</p>
+                    <div class="btn-group">
+                        <a href=" https://www.linkedin.com/posts/hina-fahim-021515313_webdevelopment-frontend-html-activity-7216398629798887424-njH8?utm_source=share&utm_medium=member_android" target="_blank" class="btn">LinkedIn</a>
+                        <a href="https://watchflix-clone.netlify.app/" target="_blank" class="btn">GitHub</a>
+                    </div>
+                </div>
+               
+                <div class="project-card">
+                    <img src="Shoes Clone.png" alt="Shoes Web Clone" class="project-img">
+                    <h2>Nike Landing Page</h2>
+                    <p>A stylish clone of a shoes e-commerce website with modern UI.</p>
+                    <div class="btn-group">
+                        <a href=" https://www.linkedin.com/posts/hina-fahim-021515313_proud-to-unveil-the-niki-landing-page-activity-7234639736907177984-lb-h?utm_source=share&utm_medium=member_android" target="_blank" class="btn">LinkedIn</a>
+                        <a href="https://my-nike-page.netlify.app/" target="_blank" class="btn">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="Calculator.png" alt="Calculator Web Clone" class="project-img">
+                    <h2>Calculator Web Clone</h2>
+                    <p>A fully functional calculator clone with a clean and modern design.</p>
+                    <div class="btn-group">
+                        <a href=" https://www.linkedin.com/posts/hina-fahim-021515313_veloped-a-responsive-calculator-using-activity-7247360162825453568-JP45?utm_source=share&utm_medium=member_android" target="_blank" class="btn">LinkedIn</a>
+                        <a href="https://simple-calc-clone.netlify.app/" target="_blank" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="Contact">
+            <h2 class="heading">Contact <span>Us</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>We’d love to hear from you! Whether you have a question, feedback, or a project in mind, feel
+                        free to reach out to us.</p>
+                    <ul>
+                        <li><i class="fas fa-phone-alt"></i>03138823816</li>
+                        <li><i class="fas fa-envelope"></i>hinafahim758@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i>ziauddin hospital Nazmabad Karachi</li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container-fluid text-white bg-dark p-3 text-center fs-5">
+                Developed by Hina Fahim &copy; 2024
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
